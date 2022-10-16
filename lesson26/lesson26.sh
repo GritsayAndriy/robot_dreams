@@ -10,4 +10,6 @@ cd robot_dreams/lesson26;
 
 sudo chmod 777 logs;
 
-php -S localhost:8000 public/;
+cd public;
+
+php -S localhost:8000;
