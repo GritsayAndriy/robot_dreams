@@ -2,9 +2,13 @@
 
 declare(strict_types=1);
 
-namespace AbstractFactory;
+namespace RobotDreams\Patterns\AbstractFactory;
 
 interface FurnitureFactory
 {
+    public function createChair(): Furniture;
 
+    public function createSofa(): Furniture;
+
+    public function createTable(): Furniture;
 }
