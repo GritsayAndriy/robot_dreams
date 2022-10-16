@@ -2,9 +2,15 @@
 
 declare(strict_types=1);
 
-namespace AbstractFactory\Classic;
+namespace RobotDreams\Patterns\AbstractFactory\Classic;
 
-class ClassicTable
+use RobotDreams\Patterns\AbstractFactory\Furniture;
+
+class ClassicTable implements Furniture
 {
 
+    public function create()
+    {
+        echo 'Created classic table' . "\n";
+    }
 }

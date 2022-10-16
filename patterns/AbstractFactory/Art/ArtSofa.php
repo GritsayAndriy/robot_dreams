@@ -2,9 +2,15 @@
 
 declare(strict_types=1);
 
-namespace AbstractFactory\Art;
+namespace RobotDreams\Patterns\AbstractFactory\Art;
 
-class ArtSofa
+use RobotDreams\Patterns\AbstractFactory\Furniture;
+
+class ArtSofa implements Furniture
 {
 
+    public function create()
+    {
+        echo 'Created art sofa' . "\n";
+    }
 }

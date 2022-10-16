@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AbstractFactory;
+namespace RobotDreams\Patterns\AbstractFactory;
 
 interface Furniture
 {

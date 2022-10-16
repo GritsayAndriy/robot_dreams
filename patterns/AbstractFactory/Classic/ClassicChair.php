@@ -2,9 +2,14 @@
 
 declare(strict_types=1);
 
-namespace AbstractFactory\Classic;
+namespace RobotDreams\Patterns\AbstractFactory\Classic;
 
-class ClassicChair
+use RobotDreams\Patterns\AbstractFactory\Furniture;
+
+class ClassicChair implements Furniture
 {
-
+    public function create()
+    {
+        echo 'Created classic chair' . "\n";
+    }
 }
